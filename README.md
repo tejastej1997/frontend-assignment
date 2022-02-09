@@ -1,26 +1,38 @@
-# Front-End Developer Code Challenge
+# Front-End Developer Tech Test: Pipeline
 
-Thanks so much for your interest in working at SIDEARM Sports as a Front-End Developer! Below is a test project we'd like to have you do. The purpose of this is to see how you would accomplish some of our most common layouts that we use on a vast majority of our sites.
+Thank you for your interest in the Front-End Developer position at SIDEARM Sports!
 
-# Brief
+One of the main responsibilities of the Front-End Developer on the pipeline team is to take a design from one of our many talented designers and bring it to life with your code.  Our designers will provide you with high-fidelity mockups in [Figma](https://www.figma.com/) broken down for desktop, tablet, and mobile. You would then be responsible for integrating the site using semantic HTML, LESS, and KnockoutJS. Fear not, we are transitioning to a more modern approach (SCSS, Vue).
 
-Building layouts provided by designer mockups is a big part of our day to day at SIDEARM Sports. For this coding challenge, you'll be building a set of different layouts to show that you understand what a responsive website is.
+At this point, you've most likely made it through an interview or two, and now we want to see your talent at work.
 
-## Figma
+## What We Are Looking For:
+For this tech test, we would like you to build a web page containing the specified sections from the Figma design file below (most likely just the header and another horizontal section). This project will be used to gauge your knowledge of HTML, CSS, JS, responsive design conventions, as well as how well you can take a design in figma and match it in browser.  
 
-At SIDEARM Sports, we use Figma both to prototype ideas & create high-fidelity UI designs.
+- **HTML:** semantic HTML
+- **CSS:** feel free to use your favorite pre-processor and boilerplate css (ie. normalize, modernizr, etc.), but please no CSS frameworks (bootstrap, foundation, tailwind, etc.).
+- **JavaScript:** no frameworks, vanilla JS please.
 
-Please find below the Figma file for this coding challenge. [https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock](https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock). The font being used is [Montserrat](https://fonts.google.com/specimen/Montserrat). For the font icons please use [FontAwesome](https://fontawesome.com/), they might not be exact to the mockup and that is ok. 
+## What You Need To Get Started:
 
-## Assumptions
+- **Figma File:** [https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock](https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock). 
+- **Fonts:** Montserrat - [https://fonts.google.com/share?selection.family=Montserrat:wght@400;700;900](https://fonts.google.com/share?selection.family=Montserrat:wght@400;700;900) - feel free to add any that were missed.
+- **Icons:** [FontAwesome](https://fontawesome.com/) - they might not be exact to the mockup and that is ok.
+- **Images:** see assets directory - or use your own - as long as they are sized the same as the mocks.
 
-- Aim for an end-result that you'd be comfortable to ship to real-world users
-- Write the code as if you'd have to maintain it for the years to come
+## You Can Make the Following Assumptions:
 
-## Questions
+- We will be checking to see how the site responds in-between breakpoints, so while you should focus on hitting the mocks as designed, it should also look good at other viewport sizes.
+- While we will be checking how close you can match the design, *we also expect the navigation dropdowns to work on all breakpoints.* 
+- Code should be written as if you would need to maintain it for years to come.
+- **Turnaround Time:** It is understood that you want to put your best foot forward, but we also understand that you have other responsibilities.  Our intention with this tech test is that you should be able to deliver a site you are happy with by spending no more than a couple of hours per night over a couple of nights. 
 
-*We'd love to get your thoughts on each of these (no more than a few minutes per point).*
+## What Comes Next: 
 
-1. What are some edge-cases you'd consider before shipping this feature?
-2. Which of your skills that you expect to use in this role do you feel *weren't* highlighted in this project?
-3. What's important for remote engineering teams to work well?
+If we like what we see, we will bring you back in to go over your code.
+
+We'd love to get your thoughts:
+
+- Are there any sections in the mockup that you feel require additional clarification from the designer?
+- Which of your skills that you expect to use in this role do you feel *weren't* highlighted in this project?
+- What's important for remote engineering teams to work well?
