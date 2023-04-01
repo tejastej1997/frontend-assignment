@@ -59,16 +59,16 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     display: none;
-    position: absolute;
+    position: relative;
     transition: all 0.2s;
 
 }
 
-nav ul li:hover  .hover-content  {
-    transition: all 0.2s;
-    display: block;
-
-
+nav ul li a:hover > .hover-content .hover-content__coloumn  {
+    
+   background-color: #666666;
+    
+   
 }
 
 .hover-content .hover-content__coloumn {
