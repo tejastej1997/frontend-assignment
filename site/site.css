@@ -56,7 +56,7 @@ nav #navheading li a:hover {
 
 
 .hover-content {
-    background-color:white;
+    background-color: white;
     padding: 10px;
     width: 100%;
     border-radius: 10px;
@@ -67,12 +67,14 @@ nav #navheading li a:hover {
     /* left: 380px; */
     transition: all 0.2s;
 }
-.menu:hover~.hover-content{
+
+.menu:hover~.hover-content {
     display: flex;
-    
+
     transition: all 1s;
 }
-.hover-content:hover{
+
+.hover-content:hover {
     display: flex;
     transition: all 1s;
 }
@@ -88,10 +90,12 @@ nav #navheading li a:hover {
     color: #262628;
     transform: translateX(-40%);
 }
-.hover-content__coloumn ul{
+
+.hover-content__coloumn ul {
     display: flex;
     flex-direction: column;
 }
+
 .hover-content__coloumn ul li {
     padding: 8px;
     font-size: 14px;
@@ -484,7 +488,7 @@ footer .footer-content p {
 
     .menu {
         display: none;
-
+        visibility: hidden;
     }
 
     .menu.active {
@@ -495,12 +499,13 @@ footer .footer-content p {
         /* border: 1px solid black; */
         margin: 0%;
         height: 200px;
-        display: block;
+        visibility: visible;
     }
 
     nav ul li {
         margin: 20px;
         text-align: center;
+        
     }
 
     nav .bar {
@@ -583,10 +588,24 @@ footer .footer-content p {
 }
 
 @media only screen and (max-width:425px) {
+
     .landing-page {
         width: 100%;
     }
+    /* .menu {
+        display: none;
+    }
 
+    nav .bar {
+        display: block;
+        font-size: 30px;
+        color: white;
+    } */
+
+    nav
+    {
+        width: 100%;
+    }
     section h1 {
         font-size: 30px;
     }
