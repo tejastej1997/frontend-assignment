@@ -23,7 +23,7 @@ nav {
     margin: auto;
 }
 
-nav ul {
+nav #navheading {
     display: flex;
     align-items: center;
     /* visibility: visible; */
@@ -37,7 +37,7 @@ ul li {
     list-style: none;
 }
 
-nav ul li a {
+nav #navheading li a {
     text-decoration: none;
     font-family: 'Montserrat';
     color: #666666;
@@ -47,32 +47,38 @@ nav ul li a {
     padding: 22.5px 24px;
 }
 
-nav ul li a:hover {
+nav #navheading li a:hover {
     box-shadow: inset 0px -4px 0px #003057;
     color: #003057;
     font-weight: 700;
 
 }
 
+
 .hover-content {
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
+    background-color:white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
     display: none;
-    position: relative;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    /* left: 380px; */
     transition: all 0.2s;
-
 }
-
-nav ul li a:hover > .hover-content .hover-content__coloumn  {
+.menu:hover~.hover-content{
+    display: flex;
     
-   background-color: #666666;
-    
-   
+    transition: all 1s;
+}
+.hover-content:hover{
+    display: flex;
+    transition: all 1s;
 }
 
 .hover-content .hover-content__coloumn {
-    width: 500px;
+    width: 250px;
     text-align: center;
 }
 
@@ -82,9 +88,11 @@ nav ul li a:hover > .hover-content .hover-content__coloumn  {
     color: #262628;
     transform: translateX(-40%);
 }
-
+.hover-content__coloumn ul{
+    display: flex;
+    flex-direction: column;
+}
 .hover-content__coloumn ul li {
-    width: 460px;
     padding: 8px;
     font-size: 14px;
     /* border: 1px solid black; */
@@ -96,6 +104,7 @@ nav ul li a:hover > .hover-content .hover-content__coloumn  {
 }
 
 .hover-content__coloumn ul li a {
+    display: block;
     color: #262628;
     font-family: 'Montserrat';
 }
